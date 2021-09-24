@@ -341,10 +341,32 @@ p {
 
 #services .service-bottom {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 40px;
+  padding: 20px;
+}
+
+
+#services .skill-item {
+  margin: 7px;
+  padding: 2px;
+}
+
+#services .skill-item img{
+
+  height: 120px;
+  width: 120px;
+  object-fit: fill;
+  transition: transform .2s; 
+
+}
+
+#services .skill-item img:hover{
+
+  transform: scale(1.2);
+
 }
 
 #services .service-item {
@@ -414,6 +436,7 @@ p {
   font-size: 2rem;
   line-height: 3.5rem;
 }
+
 
 /* End of Service Section */
 
