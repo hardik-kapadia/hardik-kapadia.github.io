@@ -364,10 +364,9 @@ p {
 }
 
 #services .skill-item img:hover{
-
   transform: scale(1.2);
-
 }
+
 
 #services .service-item {
   flex-basis: 80%;
