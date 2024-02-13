@@ -452,6 +452,19 @@ p {
   margin-bottom: 50px;
 }
 
+#projects .project-buttons {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#projects .project-button {
+  margin-right: 20px;
+}
+
+.swe_projects, .ml_projects, .mobile_projects {
+  display: none;
+}
+
 #projects .all-projects {
   display: flex;
   align-items: center;
