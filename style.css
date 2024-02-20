@@ -469,9 +469,9 @@ p {
 }
 
 
-/* .swe_projects, .ml_projects, .mobile_projects {
-  display: none;
-} */
+.swe_projects, .ml_projects, .mobile_projects {
+  display: none !important;
+}
 
 #projects .project-item {
   display: flex;
