@@ -53,6 +53,13 @@ function switchToSelected(sel) {
   }
 }
 
+switchToSelected(all_button);
+swe_pros.style.display = "none";
+ml_pros.style.display = "none";
+mobile_pros.style.display = "none";
+all_projs.style.display = "block";
+switchToSelected(all_button)
+
 swe_button.addEventListener("click", () => {
   swe_pros.style.display = "block";
   switchToSelected(swe_button);

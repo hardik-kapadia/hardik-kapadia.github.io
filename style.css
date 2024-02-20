@@ -461,16 +461,17 @@ p {
   margin-right: 20px;
 }
 
-.swe_projects, .ml_projects, .mobile_projects {
-  display: none;
-}
-
 #projects .all-projects {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
+
+
+/* .swe_projects, .ml_projects, .mobile_projects {
+  display: none;
+} */
 
 #projects .project-item {
   display: flex;
