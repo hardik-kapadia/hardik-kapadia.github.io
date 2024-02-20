@@ -206,6 +206,7 @@ p {
   background-color: white;
   z-index: -1;
 }
+
 #header .hamburger .bar::after,
 #header .hamburger .bar::before {
   content: "";
@@ -217,6 +218,7 @@ p {
   transition: 0.3s ease;
   transition-property: top, bottom;
 }
+
 #header .bar::after {
   top: 8px;
 }
@@ -354,16 +356,16 @@ p {
   padding: 2px;
 }
 
-#services .skill-item img{
+#services .skill-item img {
 
   height: 120px;
   width: 120px;
   object-fit: fill;
-  transition: transform .2s; 
+  transition: transform .2s;
 
 }
 
-#services .skill-item img:hover{
+#services .skill-item img:hover {
   transform: scale(1.2);
 }
 
@@ -454,6 +456,9 @@ p {
 
 #projects .project-buttons {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
   margin-bottom: 20px;
 }
 
@@ -469,7 +474,9 @@ p {
 }
 
 
-.swe_projects, .ml_projects, .mobile_projects {
+.swe_projects,
+.ml_projects,
+.mobile_projects {
   display: none !important;
 }
 
@@ -718,6 +725,7 @@ p {
     width: 100%;
     left: 0;
   }
+
   100% {
     width: 0%;
     left: 100%;
@@ -746,24 +754,29 @@ p {
     font-size: 2.5rem;
     padding: 20px 60px;
   }
+
   h1.section-title {
     font-size: 6rem;
   }
+
   /* Hero */
   #hero h1 {
     font-size: 7rem;
   }
+
   /*End of hero */
   /* Service Sectio */
   #services .service-bottom .service-item {
     flex-basis: 45%;
     margin: 2.5%;
   }
+
   /* End of Service Section */
   /* Project */
   #projects .project-item:nth-child(even) {
     flex-direction: row-reverse;
   }
+
   #projects .project-item {
     height: 400px;
     margin: 0;
@@ -771,22 +784,27 @@ p {
     border-radius: 0;
     flex-direction: row;
   }
+
   #projects .all-projects .project-info {
     height: 100%;
   }
+
   #projects .all-projects .project-image {
     height: 400px !important;
   }
+
   /* End of Project */
   /* About */
   #about .about {
     flex-direction: row;
   }
+
   #about .col-left {
     width: 600px;
     height: 400px;
     padding-left: 60px;
   }
+
   #about .about .col-left .about-img::after {
     left: -45px;
     top: 34px;
@@ -794,13 +812,16 @@ p {
     width: 98%;
     border: 10px solid crimson;
   }
+
   #about .col-right {
     text-align: left;
     padding: 30px;
   }
+
   #about .col-right h1 {
     text-align: left;
   }
+
   /* End of about */
 
   /* Contact */
@@ -811,6 +832,7 @@ p {
     justify-content: center;
     min-width: 20vh;
   }
+
   #contact .contact-items {
     width: 100%;
     display: flex;
@@ -819,29 +841,35 @@ p {
     margin: 0;
     padding: 30px;
   }
+
   #contact .contact-item {
     width: 30%;
     margin: 0;
     padding: 10px 30px;
     flex-direction: row;
   }
+
   #contact .contact-item .icon {
     height: 80px;
     width: 80px;
     min-height: 30px;
     min-width: 30px;
   }
+
   #contact .contact-item .icon img {
     object-fit: contain;
   }
+
   #contact .contact-item .contact-info {
     width: 100%;
     text-align: left;
     padding-left: 20px;
   }
+
   #contact .contact-item .contact-info h2 {
     overflow-wrap: break-word;
   }
+
   /* end of contact */
 }
 
@@ -850,6 +878,7 @@ p {
 /* Media Query for Desktop */
 
 @media only screen and (min-width: 1200px) {
+
   /*Hamburger */
   #header .hamburger {
     display: none;
@@ -874,12 +903,14 @@ p {
   #header .nav-list ul a::after {
     display: none;
   }
+
   /* End of Hamburger */
 
   /* Start of Service */
   #services .services {
     max-width: 1500px;
   }
+
   #services .service-top {
     max-width: 700px;
   }
