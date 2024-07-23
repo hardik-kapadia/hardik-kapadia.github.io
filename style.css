@@ -176,6 +176,10 @@ p {
   color: crimson;
 }
 
+#header #header-seperator {
+  display: none;
+}
+
 #header .hamburger {
   height: 60px;
   width: 60px;
@@ -914,7 +918,7 @@ p {
 
 /* Media Query for Desktop */
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
 
   /*Hamburger */
   #header .hamburger {
@@ -924,7 +928,9 @@ p {
   #header #header-seperator {
     display: block;
     position: absolute;
-    width: 100%;
+    width: 97%;
+    left: 1%;
+    right: 1%;
     color: white;
     height: 1px;
   }
@@ -969,7 +975,7 @@ p {
   }
 
   #services .service-bottom {
-    width: 1400px;
+    width: 100%;
   }
 
   #services .service-bottom .service-item {
