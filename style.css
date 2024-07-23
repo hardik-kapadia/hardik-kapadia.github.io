@@ -315,6 +315,19 @@ p {
   animation-delay: 2.5s;
 }
 
+#hero div.hero-contact-icons {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+#hero div.hero-contact-icons div.hero-contact-item {
+  height: 40px;
+  width: 40px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
 /* End of Hero section */
 
 /* Services section */
@@ -772,6 +785,13 @@ p {
   }
 
   /* End of Service Section */
+
+  #hero div.hero-contact-icons div.hero-contact-item {
+    height: 60px;
+    width: 60px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
   /* Project */
   #projects .project-item:nth-child(even) {
     flex-direction: row-reverse;
@@ -905,6 +925,13 @@ p {
   }
 
   /* End of Hamburger */
+
+  #hero div.hero-contact-icons div.hero-contact-item {
+    height: 60px;
+    width: 60px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
 
   /* Start of Service */
   #services .services {
