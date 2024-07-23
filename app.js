@@ -5,6 +5,7 @@ const hamburger = document.querySelector(
 const mobile_menu = document.querySelector(".header .nav-bar .nav-list ul");
 const menu_item = document.querySelectorAll(".header .nav-bar .nav-list ul li");
 const header = document.querySelector(".header.container");
+const headerSeperator = document.querySelector("#header #header-seperator")
 
 const swe_pros = document.querySelector(".swe-projects")
 const ml_pros = document.querySelector(".ml-projects")
@@ -20,8 +21,10 @@ document.addEventListener("scroll", () => {
   var scroll_position = window.scrollY;
   if (scroll_position > 250) {
     header.style.backgroundColor = "#29323c";
+    headerSeperator.style.display = "none"
   } else {
     header.style.backgroundColor = "transparent";
+    headerSeperator.style.display = "block";
   }
 });
 

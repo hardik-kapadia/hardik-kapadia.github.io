@@ -98,6 +98,10 @@ p {
   height: auto;
 }
 
+#header #header-seperator {
+  display: none;
+}
+
 #header .header {
   min-height: 8vh;
   background-color: rgba(31, 30, 30, 0.24);
@@ -917,12 +921,21 @@ p {
     display: none;
   }
 
+  #header #header-seperator {
+    display: block;
+    position: absolute;
+    width: 100%;
+    color: white;
+    height: 1px;
+  }
+
   #header .nav-list ul {
     position: initial;
     display: block;
     height: auto;
     width: fit-content;
     background-color: transparent;
+    
   }
 
   #header .nav-list ul li {
