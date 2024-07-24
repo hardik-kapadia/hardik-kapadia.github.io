@@ -306,7 +306,6 @@ p {
 }
 
 #hero h1:nth-child(3) {
-  content: attr(og);
   animation: text_reveal_name 0.5s ease forwards;
   animation-delay: 3s;
 }
