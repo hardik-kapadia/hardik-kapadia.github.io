@@ -524,8 +524,10 @@ p {
 }
 
 #projects .project-item .project-info {
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     flex-basis: 50%;
+    gap: 5px;
     height: 100%;
     display: flex;
     align-items: flex-start;
