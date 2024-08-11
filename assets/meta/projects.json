@@ -22,7 +22,7 @@
     ],
     "heading": "A Complete back-end for a Stock Market portfolio application",
     "description": "A stock portfolio management app that offers users real-time investment tracking through integrated Finance APIs. With robust data protection and authentication measures, users can safely monitor their portfolios, making informed decisions to maximize their gains.",
-    "thumbnail": "smpm.jpg",
+    "thumbnail": "market-watch-logo.jpg",
     "rank": 3
   },
   {
@@ -161,7 +161,7 @@
     ],
     "heading": "A multi-lingual telegram bot bringing AI to the masses",
     "description": "A GPT-powered multilingual Telegram bot which assists underprivileged farmers with agricultural queries, bridging language barriers and improving information accessibility. Users can send voice note queries in any language, receiving responses as both text and AI-generated voice notes, enhancing overall usability and reach.",
-    "thumbnail": "placeholder.jpg",
+    "thumbnail": "telegram-gpt-logo.png",
     "rank": 2
   },
   {
@@ -187,7 +187,7 @@
     ],
     "heading": "A Discord bot for memes and the community",
     "description": "A Discord bot that streamlines server moderation, aiding in community management. Its web scraping capabilities, powered by Beautiful Soup, integrate iFunny content into Discord channels. Hosted on Heroku and supported by a CI/CD pipeline through GitHub Actions, this bot enhances Discord server functionality.",
-    "thumbnail": "uni-link-logo.png",
+    "thumbnail": "discord-bot-logo.png",
     "rank": 5
   },
   {
@@ -212,7 +212,7 @@
     ],
     "heading": "A Research project to qunatify users' social media impact",
     "description": "A collaborative project with a professor to develop a sophisticated statistical model for quantifying social media presence. This model computes personalized sociability scores and inter-user homophily. Advanced data mining techniques and Recurrent neural networks were used to analyze over 5000 user profiles, enhancing the model's accuracy.",
-    "thumbnail": "uni-link-logo.png",
+    "thumbnail": "stu-soc-stat-logo.svg",
     "rank": 4
   },
   {
@@ -240,7 +240,7 @@
     ],
     "heading": "A web application designed to predict the presence of a specific disease based on medical scan analysis ",
     "description": "A web application for disease prediction, leveraging medical scan analysis. It incorporates user authentication and secure data storage using SQLite, managing user profiles and medical records. The image pre-processing pipeline, optimized with OpenCV, enhances the accuracy of Convolutional Neural Networks in detecting diseases from medical scans",
-    "thumbnail": "uni-link-logo.png",
+    "thumbnail": "doc-logo.jpg",
     "rank": 3
   },
   {
@@ -266,7 +266,7 @@
     ],
     "heading": "A multi-threaded web crawler to extract images from websites and their subpages",
     "description": "A multi-threaded web crawler to extract images from websites and their subpages. The crawler utilizes Java’s concurrent programming capabilities, implementing recursive job creation and asynchronous processing to efficiently handle multiple URLs, optimizing both performance and resource management. Additionally, URL filtering mechanisms and depth/URL limits were designed to ensure focused crawling within specified domains while preventing resource overuse",
-    "thumbnail": "uni-link-logo.png",
+    "thumbnail": "web-crawler-logo.png",
     "rank": 1
   }
 ]
