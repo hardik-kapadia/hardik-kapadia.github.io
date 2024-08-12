@@ -83,17 +83,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     readAllProjects().then(projs => {
 
-      console.log(projs)
-
-      console.log("category: ", category)
 
       if (category !== "all") {
         projs = projs.filter(proj => proj.categories.includes(category));
       }
 
-      projs.sort(proj => proj.rank);
+      projs.sort((a, b) => a.rank - b.rank);
 
-      console.log("Sorted: ", projs);
 
       allProjsContainer.innerHTML = ''
 
@@ -106,7 +102,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function getProjectDiv(project) {
 
-    console.log("processing project:", project);
 
     const projectItem = document.createElement("div");
     projectItem.classList.add("project-item");
