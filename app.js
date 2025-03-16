@@ -114,6 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const title = document.createElement("h1");
     title.textContent = project.title;
+    title.classList.add("project-item-title");
 
     a.appendChild(title);
 
