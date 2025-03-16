@@ -548,6 +548,10 @@ p {
     margin-top: 10px;
 }
 
+#projects .project-item-title {
+    text-decoration: underline;
+}
+
 #projects .project-item .project-info .project-item-tags {
     font-size: 1.4rem;
     font-weight: 500;
