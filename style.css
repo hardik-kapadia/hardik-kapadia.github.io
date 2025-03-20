@@ -347,6 +347,14 @@ p {
     margin-left: 3px;
 }
 
+#hero div.hero-contact-icons div.hero-contact-item img {
+    transition: transform .3s;
+}
+
+#hero div.hero-contact-icons div.hero-contact-item img:hover {
+    transform: scale(1.25)
+}
+
 /* End of Hero section */
 
 /* Services section */
