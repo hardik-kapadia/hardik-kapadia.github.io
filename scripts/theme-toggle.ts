@@ -5,7 +5,8 @@ const LIGHT_THEME = "light";
 const getStoredTheme = () => window.localStorage.getItem(STORAGE_KEY);
 const getPreferredTheme = () =>
   window.matchMedia("(prefers-color-scheme: dark)").matches ? DARK_THEME : LIGHT_THEME;
-const getThemeToggle = () => document.querySelector<HTMLButtonElement>("[data-theme-toggle]");
+const getThemeToggles = () =>
+  Array.from(document.querySelectorAll<HTMLButtonElement>("[data-theme-toggle]"));
 const getInitialTheme = () => getStoredTheme() ?? getPreferredTheme();
 const getNextTheme = (currentTheme: string) =>
   currentTheme === DARK_THEME ? LIGHT_THEME : DARK_THEME;
@@ -28,26 +29,32 @@ const persistTheme = (theme: string) => {
   window.localStorage.setItem(STORAGE_KEY, theme);
 };
 
+const syncThemeToggles = (theme: string) => {
+  getThemeToggles().forEach((button) => {
+    updateThemeToggle(button, theme);
+  });
+};
+
 const bindThemeToggle = (button: HTMLButtonElement) => {
   button.addEventListener("click", () => {
     const currentTheme = document.body.dataset.theme || LIGHT_THEME;
     const nextTheme = getNextTheme(currentTheme);
 
     applyTheme(nextTheme);
-    updateThemeToggle(button, nextTheme);
+    syncThemeToggles(nextTheme);
     persistTheme(nextTheme);
   });
 };
 
 export const setupThemeToggle = () => {
-  const button = getThemeToggle();
+  const buttons = getThemeToggles();
 
-  if (!button) {
+  if (!buttons.length) {
     return;
   }
 
   const theme = getInitialTheme();
   applyTheme(theme);
-  updateThemeToggle(button, theme);
-  bindThemeToggle(button);
+  syncThemeToggles(theme);
+  buttons.forEach(bindThemeToggle);
 };

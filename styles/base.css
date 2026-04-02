@@ -19,6 +19,10 @@ body {
   transition: background 220ms ease, color 220ms ease;
 }
 
+body[data-mobile-nav="open"] {
+  overflow: hidden;
+}
+
 body::before {
   content: "";
   position: fixed;
