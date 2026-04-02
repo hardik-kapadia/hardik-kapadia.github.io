@@ -1,0 +1,179 @@
+{
+  "filters": [
+    { "id": "backend", "label": "Backend" },
+    { "id": "data-ai", "label": "Data / AI" },
+    { "id": "games", "label": "Play / Games" }
+  ],
+  "groups": [
+    {
+      "id": "backend-systems-architecture",
+      "filterId": "backend",
+      "label": "Backend Systems & Architecture",
+      "description": "The strongest backend-facing work: service architecture, APIs, concurrency, and integration-heavy systems."
+    },
+    {
+      "id": "applied-data-intelligence",
+      "filterId": "data-ai",
+      "label": "Applied Data & Intelligent Systems",
+      "description": "Projects where data processing, AI workflows, or prediction logic make the system meaningfully more interesting."
+    },
+    {
+      "id": "play-games",
+      "filterId": "games",
+      "label": "Play / Games",
+      "description": "Smaller game builds and interactive experiments that show playfulness, graphics instincts, and a willingness to build for feel as well as function."
+    }
+  ],
+  "items": [
+    {
+      "slug": "pantheon",
+      "title": "Pantheon (WIP)",
+      "group": "backend-systems-architecture",
+      "filters": ["backend"],
+      "summary": "A unified game-library backend designed as a modular monolith with explicit architecture boundaries and real-time event delivery.",
+      "impact": "A modular-monolith backend for game libraries, built around clean boundaries, live updates, and maintainable growth.",
+      "stack": ["Java 25", "Spring Boot", "SQLite", "Flyway", "SSE", "ArchUnit"],
+      "tags": ["Architecture", "Modular monolith", "Hexagonal", "CI", "Testing"],
+      "link": "https://github.com/hardik-kapadia/Pantheon",
+      "notes": [
+        "Clean architecture, live updates, and serious engineering discipline in one backend.",
+        "The interesting part here is not just the stack, but the discipline around keeping the system easy to evolve as features and integrations grow."
+      ]
+    },
+    {
+      "slug": "stock-portfolio-management",
+      "title": "Stock Portfolio Management",
+      "group": "backend-systems-architecture",
+      "filters": ["backend", "data-ai"],
+      "summary": "A secure REST backend for portfolio tracking with authentication, persistence, and live market data integration.",
+      "impact": "A secure portfolio-tracking backend with auth, persistence, and real-time market integration.",
+      "stack": ["Java", "Spring Boot", "Spring Security", "MySQL", "JWT", "OpenAPI"],
+      "tags": ["Backend", "Finance", "API", "Security", "Documentation"],
+      "link": "https://github.com/hardik-kapadia/stock-portfolio-management",
+      "notes": [
+        "Secure, documented, and practical backend work with real integrations.",
+        "It is a good example of the kind of backend work I enjoy most: practical APIs, clear contracts, and systems that feel usable rather than purely academic."
+      ]
+    },
+    {
+      "slug": "image-webcrawler-servlet",
+      "title": "Image WebCrawler",
+      "group": "backend-systems-architecture",
+      "filters": ["backend"],
+      "summary": "A multi-threaded crawler that recursively explores in-domain pages and extracts images while controlling duplication and resource usage.",
+      "impact": "A concurrent image crawler that recursively scans in-domain pages while controlling duplicates and resource usage.",
+      "stack": ["Java", "Servlets", "Jetty", "JSoup", "Concurrency", "JUnit"],
+      "tags": ["Multithreading", "Web crawling", "Performance", "Testing", "Server"],
+      "link": "https://github.com/hardik-kapadia/Image-WebCrawler-servlet",
+      "notes": [
+        "Concurrency-heavy systems work that is instantly more memorable than another CRUD app.",
+        "It is one of my more systems-heavy projects, and a good example of enjoying problems that are as much about behavior and constraints as they are about features."
+      ]
+    },
+    {
+      "slug": "uni-link",
+      "title": "Uni-link",
+      "group": "backend-systems-architecture",
+      "filters": ["backend", "data-ai"],
+      "summary": "A backend and integration layer for a unified social-media management workflow across multiple platforms.",
+      "impact": "An integration-focused backend that unifies social-platform workflows behind one service layer.",
+      "stack": ["Python", "FastAPI", "Tweepy", "Facebook SDK", "APIs"],
+      "tags": ["Integrations", "FastAPI", "Marketing tech", "Workflow", "Cross-platform"],
+      "link": "https://github.com/hardik-kapadia/unilink-backend",
+      "notes": [
+        "A useful integration backend that proves I can build beyond the JVM comfort zone.",
+        "It also adds a useful change of texture to the portfolio by showing product-facing backend work outside my usual Java-heavy lane."
+      ]
+    },
+    {
+      "slug": "stonks",
+      "title": "Stonks",
+      "group": "applied-data-intelligence",
+      "filters": ["data-ai"],
+      "summary": "A stock prediction application that combines social-media sentiment with historical market data to estimate future movement.",
+      "impact": "A data-heavy web app that combines market history and social sentiment to explore stock prediction.",
+      "stack": ["Python", "Django", "NLTK", "Flair", "Pandas", "Finance APIs"],
+      "tags": ["Prediction", "Sentiment", "Finance", "NLP", "Hackathon"],
+      "link": "https://github.com/hardik-kapadia/stonks",
+      "notes": [
+        "Finance, NLP, and experimentation brought together in one opinionated project.",
+        "It sits in the more experimental part of my work, but still leans on the same instincts around pipelines, data boundaries, and usefulness."
+      ]
+    },
+    {
+      "slug": "telegram-gpt-bot",
+      "title": "Telegram GPT Bot",
+      "group": "applied-data-intelligence",
+      "filters": ["data-ai"],
+      "summary": "A multilingual Telegram bot that uses text and voice workflows to make AI assistance more accessible in lower-access settings.",
+      "impact": "A multilingual AI bot that blends messaging, voice, and translation into one accessible workflow.",
+      "stack": ["Python", "python-telegram-bot", "OpenAI", "LangChain", "SpeechRecognition"],
+      "tags": ["AI", "Voice", "Messaging", "Accessibility", "Bot"],
+      "link": "https://github.com/hardik-kapadia/Telegram-bot-local-gpt",
+      "notes": [
+        "Applied AI with an actual point of view, not just a chatbot wrapper.",
+        "It is one of the more human-centered pieces in the set, which is part of what makes it memorable to talk about."
+      ]
+    },
+    {
+      "slug": "insta-diagnosis",
+      "title": "Insta-Diagnosis",
+      "group": "applied-data-intelligence",
+      "filters": ["data-ai"],
+      "summary": "A web application for disease prediction using medical scans, secure record handling, and image pre-processing before model inference.",
+      "impact": "A healthcare-focused web app that combines image preprocessing, model inference, and secure records.",
+      "stack": ["Python", "Django", "TensorFlow", "OpenCV", "SQLite"],
+      "tags": ["Healthcare", "Computer vision", "ML", "Image processing", "Auth"],
+      "link": "https://github.com/hardik-kapadia/Insta-diagnosis",
+      "notes": [
+        "Computer vision in a healthcare setting, with real product and security context.",
+        "Even as a smaller project, it reflects a recurring theme in my work: trying to make technically ambitious ideas concrete and usable."
+      ]
+    },
+    {
+      "slug": "atari-asteroids",
+      "title": "Atari Asteroids",
+      "group": "play-games",
+      "filters": ["games"],
+      "summary": "A classic arcade-style Asteroids recreation built as a game-focused programming exercise around movement, collision, and loop design.",
+      "impact": "A playable Asteroids remake focused on motion, collision, and arcade feel.",
+      "stack": ["Java", "JavaFX", "Game loop", "Collision logic"],
+      "tags": ["Arcade", "Game dev", "Java", "Interactive systems"],
+      "link": "https://github.com/hardik-kapadia/Atari-Asteroids",
+      "notes": [
+        "A pure feel-first build that shows I like engineering for interaction, not just infrastructure.",
+        "It is a different kind of engineering problem, but still one that rewards clarity, iteration, and attention to behavior."
+      ]
+    },
+    {
+      "slug": "sky-jump",
+      "title": "Sky Jump",
+      "group": "play-games",
+      "filters": ["games"],
+      "summary": "A 2D platformer built in Python around level progression, enemy behavior, and gameplay pacing.",
+      "impact": "A Python platformer built around progression, enemy behavior, and moment-to-moment game feel.",
+      "stack": ["Python", "Pygame", "Level design", "Game logic"],
+      "tags": ["Platformer", "Game dev", "Python", "Computer graphics"],
+      "link": "https://github.com/hardik-kapadia/pygame-2d-platformer",
+      "notes": [
+        "A more visual project that still rewards systems thinking and careful tuning.",
+        "The visual side matters here more than in my backend work, which is exactly why it is a useful contrast project."
+      ]
+    },
+    {
+      "slug": "snake-game",
+      "title": "Snake Game",
+      "group": "play-games",
+      "filters": ["games"],
+      "summary": "A compact Java implementation of the classic Snake game, packaged and runnable as a desktop jar.",
+      "impact": "A compact desktop Snake build that packages classic gameplay into a clean end-to-end Java project.",
+      "stack": ["Java", "Maven", "Desktop app"],
+      "tags": ["Arcade", "Game dev", "Java", "Maven"],
+      "link": "https://github.com/hardik-kapadia/Snake-Game",
+      "notes": [
+        "Small, finished, and runnable, which is part of the appeal.",
+        "Not every project needs to be huge to be worth keeping around if it shows a genuine pattern in how you like to build."
+      ]
+    }
+  ]
+}

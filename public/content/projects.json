@@ -1,0 +1,126 @@
+{
+  "filters": [
+    { "id": "all", "label": "All" },
+    { "id": "backend", "label": "Backend" },
+    { "id": "data-ai", "label": "Data / AI" }
+  ],
+  "groups": [
+    {
+      "id": "backend-systems-architecture",
+      "label": "Backend Systems & Architecture",
+      "description": "The strongest backend-facing work: service architecture, APIs, concurrency, and integration-heavy systems."
+    },
+    {
+      "id": "applied-data-intelligence",
+      "label": "Applied Data & Intelligent Systems",
+      "description": "Projects where data processing, AI workflows, or prediction logic make the system meaningfully more interesting."
+    }
+  ],
+  "items": [
+    {
+      "slug": "pantheon",
+      "title": "Pantheon",
+      "group": "backend-systems-architecture",
+      "filters": ["backend"],
+      "summary": "A unified game-library backend designed as a modular monolith with explicit architecture boundaries and real-time event delivery.",
+      "impact": "Shows modern backend architecture thinking through hexagonal design, SSE updates, migration tooling, architecture tests, and enforced quality gates.",
+      "stack": ["Java 25", "Spring Boot", "SQLite", "Flyway", "SSE", "ArchUnit"],
+      "tags": ["Architecture", "Modular monolith", "Hexagonal", "CI", "Testing"],
+      "link": "https://github.com/hardik-kapadia/Pantheon",
+      "notes": [
+        "This is the strongest public architecture-forward project in the portfolio right now.",
+        "The backend README provides unusually strong proof: package-by-feature design, ports and adapters, quality gates, and continuous integration discipline."
+      ]
+    },
+    {
+      "slug": "stock-portfolio-management",
+      "title": "Stock Portfolio Management",
+      "group": "backend-systems-architecture",
+      "filters": ["backend", "data-ai"],
+      "summary": "A secure REST backend for portfolio tracking with authentication, persistence, and live market data integration.",
+      "impact": "Strong conventional backend signal through Spring Security, JWT authentication, MySQL persistence, OpenAPI docs, and external finance API integration.",
+      "stack": ["Java", "Spring Boot", "Spring Security", "MySQL", "JWT", "OpenAPI"],
+      "tags": ["Backend", "Finance", "API", "Security", "Documentation"],
+      "link": "https://github.com/hardik-kapadia/stock-portfolio-management",
+      "notes": [
+        "This should remain one of the primary flagship projects because it reads immediately as serious backend/API work.",
+        "It pairs well with Pantheon by showing a more traditional service stack and product domain."
+      ]
+    },
+    {
+      "slug": "image-webcrawler-servlet",
+      "title": "Image WebCrawler",
+      "group": "backend-systems-architecture",
+      "filters": ["backend"],
+      "summary": "A multi-threaded crawler that recursively explores in-domain pages and extracts images while controlling duplication and resource usage.",
+      "impact": "Distinctive systems work that demonstrates concurrency, recursive job creation, URL validation, thread-safe data structures, and test coverage.",
+      "stack": ["Java", "Servlets", "Jetty", "JSoup", "Concurrency", "JUnit"],
+      "tags": ["Multithreading", "Web crawling", "Performance", "Testing", "Server"],
+      "link": "https://github.com/hardik-kapadia/Image-WebCrawler-servlet",
+      "notes": [
+        "This is the most technically distinctive backend project in the set and adds memorability without leaving the systems story.",
+        "The README gives enough implementation detail to support deeper writeups later."
+      ]
+    },
+    {
+      "slug": "uni-link",
+      "title": "Uni-link",
+      "group": "backend-systems-architecture",
+      "filters": ["backend", "data-ai"],
+      "summary": "A backend and integration layer for a unified social-media management workflow across multiple platforms.",
+      "impact": "Useful as a breadth project because it shows FastAPI, third-party platform integrations, and product-facing utility outside the Java stack.",
+      "stack": ["Python", "FastAPI", "Tweepy", "Facebook SDK", "APIs"],
+      "tags": ["Integrations", "FastAPI", "Marketing tech", "Workflow", "Cross-platform"],
+      "link": "https://github.com/hardik-kapadia/unilink-backend",
+      "notes": [
+        "Public repo documentation is thinner than the top three backend projects, so it should sit below them in visual priority.",
+        "Still worth keeping because it adds stack breadth and real integration flavor."
+      ]
+    },
+    {
+      "slug": "stonks",
+      "title": "Stonks",
+      "group": "applied-data-intelligence",
+      "filters": ["data-ai"],
+      "summary": "A stock prediction application that combines social-media sentiment with historical market data to estimate future movement.",
+      "impact": "Adds technical range through Django, NLP, finance APIs, and a more experimental decisioning pipeline without abandoning the backend story.",
+      "stack": ["Python", "Django", "NLTK", "Flair", "Pandas", "Finance APIs"],
+      "tags": ["Prediction", "Sentiment", "Finance", "NLP", "Hackathon"],
+      "link": "https://github.com/hardik-kapadia/stonks",
+      "notes": [
+        "This is the best range project to keep because it is distinct, specific, and still technically layered.",
+        "It should be framed as applied backend/data experimentation rather than an ML vanity project."
+      ]
+    },
+    {
+      "slug": "telegram-gpt-bot",
+      "title": "Telegram GPT Bot",
+      "group": "applied-data-intelligence",
+      "filters": ["data-ai"],
+      "summary": "A multilingual Telegram bot that uses text and voice workflows to make AI assistance more accessible in lower-access settings.",
+      "impact": "Memorable and human-centered, with a strong conversation angle around applied AI, speech, and messaging interfaces layered onto a real backend workflow.",
+      "stack": ["Python", "python-telegram-bot", "OpenAI", "LangChain", "SpeechRecognition"],
+      "tags": ["AI", "Voice", "Messaging", "Accessibility", "Bot"],
+      "link": "https://github.com/hardik-kapadia/Telegram-bot-local-gpt",
+      "notes": [
+        "This stays because it adds personality and a more modern system flavor, even though the public repo docs are currently thin.",
+        "Portfolio copy should carry the context here more than the repo currently does."
+      ]
+    },
+    {
+      "slug": "insta-diagnosis",
+      "title": "Insta-Diagnosis",
+      "group": "applied-data-intelligence",
+      "filters": ["data-ai"],
+      "summary": "A web application for disease prediction using medical scans, secure record handling, and image pre-processing before model inference.",
+      "impact": "Rounds out the applied-data category with healthcare, computer vision, and secure record-management context.",
+      "stack": ["Python", "Django", "TensorFlow", "OpenCV", "SQLite"],
+      "tags": ["Healthcare", "Computer vision", "ML", "Image processing", "Auth"],
+      "link": "https://github.com/hardik-kapadia/Insta-diagnosis",
+      "notes": [
+        "This is a secondary project, not a lead project, because the public proof is thinner than the top backend entries.",
+        "It still earns a slot because it gives the applied-data category a broader shape than finance alone."
+      ]
+    }
+  ]
+}

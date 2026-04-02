@@ -1,0 +1,15 @@
+{
+  "intro": "I am an inquisitive engineer who likes building systems, writing code that stays understandable, and making technical work legible instead of invisible.",
+  "summary": "Backend work is usually buried behind interfaces. This portfolio treats it like an atlas: routes, constraints, tools, and tradeoffs made visible without losing readability.",
+  "principles": [
+    "Reliability over novelty when systems matter.",
+    "Architecture should be explainable, not mystical.",
+    "Product context matters as much as technical depth.",
+    "The most interesting engineering work usually lives in tradeoffs."
+  ],
+  "notes": [
+    "I enjoy software development because it gives me room to explore ideas and build useful things, from practical backend systems to more experimental projects.",
+    "The final copy here can stay concise on first read, then expand into deeper notes when the user asks for more context.",
+    "This section is intentionally configured from JSON so the tone and emphasis can evolve without touching layout code."
+  ]
+}

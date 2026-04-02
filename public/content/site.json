@@ -1,0 +1,12 @@
+{
+  "name": "Hardik Kapadia",
+  "eyebrow": "Engineering atlas / field notes",
+  "title": "Backend-heavy engineer, mapped like a live system.",
+  "lede": "A pseudo one-page portfolio with link-first entry, expandable detail, and a motion language built around routes, checkpoints, and subsystem reveals.",
+  "note": "The top of the site stays intentionally sparse. Deeper notes unfold when a section activates or a panel is expanded.",
+  "availability": "Open to interesting conversations",
+  "location": "Chicago, IL, US",
+  "email": "hardik.kapadia63@gmail.com",
+  "heroLinks": ["github", "linkedin", "email"],
+  "contactLinks": ["email", "github", "linkedin"]
+}

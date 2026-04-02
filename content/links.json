@@ -1,0 +1,26 @@
+[
+  {
+    "id": "github",
+    "label": "GitHub",
+    "url": "https://github.com/hardik-kapadia",
+    "description": "Code, experiments, and public work.",
+    "type": "external",
+    "priority": 1
+  },
+  {
+    "id": "linkedin",
+    "label": "LinkedIn",
+    "url": "https://www.linkedin.com/in/hardik-kapadia/",
+    "description": "Professional profile and network presence.",
+    "type": "external",
+    "priority": 2
+  },
+  {
+    "id": "email",
+    "label": "Email",
+    "url": "mailto:hardik.kapadia63@gmail.com",
+    "description": "Direct contact for interesting conversations.",
+    "type": "contact",
+    "priority": 3
+  }
+]

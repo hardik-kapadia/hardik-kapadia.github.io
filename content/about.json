@@ -1,0 +1,14 @@
+{
+  "intro": "I figure it out and I build stuff.",
+  "summary": "Some of it is practical, some of it is experimental, and some of it starts as an excuse to explore something unfamiliar. What stays consistent is how I work: break the problem down, keep the solution simple, and keep pushing until it holds up. I like experimentation, but I trust simple ideas, clear systems, and software that feels understandable long after the first version ships",
+  "principles": [
+    "Break problems down until they move.",
+    "Keep it Simple, Stupid.",
+    "Build things that are actually useful."
+  ],
+  "notes": [
+    "I enjoy work that sits somewhere between systems thinking and product sense: software that is technically solid but still built for real people and real use.",
+    "A lot of my strongest work is backend-heavy, but I like being close enough to the product to understand what the system is actually trying to enable.",
+    "Outside the more serious engineering work, I also like building smaller experimental things simply because they are fun to make and teach a different kind of problem-solving."
+  ]
+}

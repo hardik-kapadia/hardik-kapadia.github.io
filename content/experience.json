@@ -1,0 +1,76 @@
+[
+  {
+    "id": "amazon-sde",
+    "eyebrow": "Current role",
+    "role": "Software Development Engineer",
+    "company": "Amazon",
+    "period": "Oct 2025 - Present",
+    "location": "Detroit, Michigan",
+    "summary": "Modernizing distributed service architecture, owning high-availability operations, and automating infrastructure changes for faster, cheaper, and more reliable delivery.",
+    "impact": [
+      "Modernized service architectures by implementing hexagonal architecture principles, improving maintainability and testability and driving a 70% improvement in deployment velocity by eliminating recurring pipeline bottlenecks and integration test failures.",
+      "Served as a primary on-call engineer for high-availability services, using AWS CloudWatch logs and alarms to diagnose production incidents and maximize service uptime.",
+      "Led a zero-downtime migration of services from ECR to a managed internal storage system using AWS CDK automation, reducing deployment friction and significantly lowering annual infrastructure costs.",
+      "Navigated technical ambiguity by debugging distributed system failures with minimal documentation, using internal telemetry and tracing tools to identify root causes and implement permanent fixes.",
+      "Mastered internal orchestration and build tooling to resolve complex dependencies and automate CI/CD release cycles for distributed microservices."
+    ],
+    "systems": ["Java", "TypeScript", "Guice", "AWS CDK", "CloudWatch", "ECR", "Lambda", "On-call"],
+    "current": true,
+    "notes": []
+  },
+  {
+    "id": "uic-research-track",
+    "eyebrow": "Research track",
+    "role": "Software Engineer",
+    "company": "University of Illinois College of Medicine",
+    "period": "May 2024 - Oct 2025",
+    "location": "Chicago, Illinois",
+    "summary": "Built secure, scalable research software for an NIH-funded healthcare platform handling confidential patient data, complex study workflows, and large neurosurgical datasets.",
+    "impact": [
+      "Collaborated on an NIH-funded project to develop a secure, scalable, and HIPAA-compliant platform for efficient management and analysis of confidential patient health information.",
+      "Built a dynamic form builder enabling users to define instruments with configurable fields, validation rules, and privacy flags for sensitive data, streamlining research study setup and data capture.",
+      "Engineered a resumable, asynchronous file-upload pipeline for cumulative uploads up to roughly 10 GB with checksum verification and automatic retry logic, reducing failures and cutting user wait times by about 60%.",
+      "Shipped a high-performance EEG viewer with persistent annotation support for multi-channel neurosurgical data, capable of rendering more than 10 million data points in real time."
+    ],
+    "systems": ["Python", "JavaScript", "Django", "PostgreSQL", "Healthcare data", "HIPAA", "IIS"],
+    "current": false,
+    "subroles": [
+      {
+        "title": "Software Engineer - Research Specialist",
+        "period": "Jul 2025 - Oct 2025"
+      },
+      {
+        "title": "Software Engineer - Research Volunteer",
+        "period": "May 2025 - Jul 2025"
+      },
+      {
+        "title": "Software Engineer - Graduate Research Assistant",
+        "period": "Aug 2024 - May 2025"
+      },
+      {
+        "title": "Software Engineer - Graduate hourly",
+        "period": "May 2024 - Aug 2024"
+      }
+      
+    ],
+    "notes": []
+  },
+  {
+    "id": "sahamati-intern",
+    "eyebrow": "Internship",
+    "role": "Software Engineer Intern",
+    "company": "Sahamati - driving Open Banking with Account Aggregator",
+    "period": "Jan 2022 - Mar 2023",
+    "location": "Remote",
+    "summary": "Built dispute-resolution services and secure APIs for an open-banking ecosystem, improving resolution speed, delivery reliability, and integration readiness.",
+    "impact": [
+      "Spearheaded development of a Common Dispute Resolution System that streamlined communication with a CRM platform, automated ticket creation, and reduced resolution time by over 90%.",
+      "Architected and delivered microservices that enabled banks to integrate dispute reporting into mobile apps and websites for customer-facing workflows.",
+      "Engineered secure REST APIs for authorized access and selective updates to centralized operational data.",
+      "Implemented critical security fixes and established a CI/CD pipeline for automated testing and deployment."
+    ],
+    "systems": ["Java", "Spring", "PostgreSQL", "Docker", "GitHub Actions", "REST APIs", "Open banking"],
+    "current": false,
+    "notes": []
+  }
+]
