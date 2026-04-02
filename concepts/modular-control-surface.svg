@@ -1,0 +1,68 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="consoleBg" x1="140" y1="90" x2="1450" y2="920" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4EEE3"/>
+      <stop offset="1" stop-color="#DDD6C5"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="950" y1="140" x2="1480" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18211F"/>
+      <stop offset="1" stop-color="#0E1615"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#E7DECD"/>
+  <rect x="40" y="32" width="1520" height="936" rx="34" fill="url(#consoleBg)" stroke="#1E201D" stroke-opacity="0.12"/>
+
+  <rect x="68" y="60" width="1464" height="80" rx="22" fill="#F8F4EC" stroke="#1E201D" stroke-opacity="0.08"/>
+  <text x="108" y="110" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#1E201D">HK</text>
+  <text x="1080" y="110" font-family="Arial, sans-serif" font-size="18" fill="#1E201D">Recruiter mode</text>
+  <text x="1208" y="110" font-family="Arial, sans-serif" font-size="18" fill="#1E201D">Architecture mode</text>
+  <text x="1360" y="110" font-family="Arial, sans-serif" font-size="18" fill="#1E201D">Project mode</text>
+
+  <text x="92" y="190" font-family="Courier New, monospace" font-size="18" letter-spacing="2" fill="#0E4D47">MODULAR CONTROL SURFACE</text>
+  <text x="92" y="286" font-family="Arial, sans-serif" font-size="82" font-weight="700" fill="#1E201D">A premium console for</text>
+  <text x="92" y="364" font-family="Arial, sans-serif" font-size="82" font-weight="700" fill="#1E201D">backend work and product taste.</text>
+  <text x="94" y="420" font-family="Arial, sans-serif" font-size="28" fill="#56534D">Panels, modes, and dense clarity. Weird enough to stick. Calm enough to trust.</text>
+
+  <rect x="92" y="472" width="388" height="430" rx="26" fill="#F8F4EC" stroke="#1E201D" stroke-opacity="0.12"/>
+  <text x="126" y="520" font-family="Courier New, monospace" font-size="18" letter-spacing="2" fill="#0E4D47">PROFILE PANEL</text>
+  <text x="126" y="586" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#1E201D">About</text>
+  <text x="126" y="628" font-family="Arial, sans-serif" font-size="23" fill="#56534D">Short personal positioning, current focus, and why this engineer is worth remembering.</text>
+  <rect x="126" y="700" width="152" height="36" rx="18" fill="#E9E1D2"/>
+  <rect x="290" y="700" width="128" height="36" rx="18" fill="#E9E1D2"/>
+  <text x="152" y="724" font-family="Courier New, monospace" font-size="14" fill="#1E201D">SYSTEMS</text>
+  <text x="326" y="724" font-family="Courier New, monospace" font-size="14" fill="#1E201D">PRODUCT</text>
+  <rect x="126" y="772" width="320" height="94" rx="20" fill="#18211F"/>
+  <text x="152" y="818" font-family="Arial, sans-serif" font-size="24" fill="#F8F4EC">Open to interesting conversations</text>
+
+  <rect x="510" y="472" width="432" height="206" rx="26" fill="#F8F4EC" stroke="#1E201D" stroke-opacity="0.12"/>
+  <text x="544" y="520" font-family="Courier New, monospace" font-size="18" letter-spacing="2" fill="#0E4D47">SKILLS MATRIX</text>
+  <text x="544" y="582" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#1E201D">Capability bands</text>
+  <text x="544" y="624" font-family="Arial, sans-serif" font-size="22" fill="#56534D">Backend systems. APIs and data. Reliability and tooling. Interface awareness.</text>
+
+  <rect x="510" y="696" width="432" height="206" rx="26" fill="#F8F4EC" stroke="#1E201D" stroke-opacity="0.12"/>
+  <text x="544" y="744" font-family="Courier New, monospace" font-size="18" letter-spacing="2" fill="#7C5A4D">TIMELINE</text>
+  <text x="544" y="804" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#1E201D">Experience</text>
+  <text x="544" y="846" font-family="Arial, sans-serif" font-size="22" fill="#56534D">Current role forward. Earlier experience compressed into clean operational milestones.</text>
+
+  <rect x="970" y="188" width="518" height="714" rx="30" fill="url(#ink)"/>
+  <text x="1010" y="236" font-family="Courier New, monospace" font-size="18" letter-spacing="2" fill="#A7E2D7">PROJECT CONTROL</text>
+  <text x="1010" y="306" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#F5F1E8">Personal projects</text>
+  <text x="1010" y="350" font-family="Arial, sans-serif" font-size="22" fill="#C5C0B4">Grouped, tagged, and switchable by mode instead of shown as one generic gallery.</text>
+
+  <rect x="1010" y="398" width="118" height="36" rx="18" fill="#26413D"/>
+  <rect x="1144" y="398" width="150" height="36" rx="18" fill="#26413D"/>
+  <rect x="1310" y="398" width="120" height="36" rx="18" fill="#26413D"/>
+  <text x="1038" y="422" font-family="Courier New, monospace" font-size="14" fill="#F5F1E8">ALL</text>
+  <text x="1170" y="422" font-family="Courier New, monospace" font-size="14" fill="#F5F1E8">BACKEND</text>
+  <text x="1340" y="422" font-family="Courier New, monospace" font-size="14" fill="#F5F1E8">APP</text>
+
+  <rect x="1010" y="468" width="438" height="132" rx="22" fill="#1F2A28"/>
+  <rect x="1010" y="620" width="438" height="132" rx="22" fill="#1F2A28"/>
+  <text x="1040" y="516" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#F5F1E8">Systems build</text>
+  <text x="1040" y="556" font-family="Arial, sans-serif" font-size="20" fill="#C5C0B4">Architecture-first project with visible tags, constraints, and outcome framing.</text>
+  <text x="1040" y="668" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#F5F1E8">Interface experiment</text>
+  <text x="1040" y="708" font-family="Arial, sans-serif" font-size="20" fill="#C5C0B4">A second lane for more product-facing or exploratory work without losing structure.</text>
+
+  <text x="1010" y="822" font-family="Arial, sans-serif" font-size="22" fill="#C5C0B4">Interaction language: panel swaps, state transitions, and docked information.</text>
+</svg>

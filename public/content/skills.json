@@ -1,0 +1,43 @@
+[
+  {
+    "id": "backend-systems",
+    "index": "01",
+    "title": "Backend Systems",
+    "summary": "Service-oriented thinking across JVM and Python-heavy work.",
+    "tools": ["Java", "Spring", "Python", "Django"],
+    "notes": [
+      "Use this band for service design, APIs, auth, and maintainability.",
+      "Tie the final copy to systems that actually shipped or mattered."
+    ]
+  },
+  {
+    "id": "apis-data",
+    "index": "02",
+    "title": "APIs & Data",
+    "summary": "The layer where backend logic becomes queryable, useful, and measurable.",
+    "tools": ["MySQL", "REST APIs", "Tomcat", "Data modeling"],
+    "notes": [
+      "Use this band for contracts, schema choices, and data boundaries."
+    ]
+  },
+  {
+    "id": "reliability-tooling",
+    "index": "03",
+    "title": "Reliability & Tooling",
+    "summary": "Delivery, debugging, and workflows that make software less fragile.",
+    "tools": ["Docker", "Git", "Maven", "Deployment workflows"],
+    "notes": [
+      "Use this band for CI/CD, operational maturity, and developer tooling."
+    ]
+  },
+  {
+    "id": "product-interface",
+    "index": "04",
+    "title": "Product & Interface Awareness",
+    "summary": "Enough frontend and mobile depth to make systems visible and useful.",
+    "tools": ["HTML", "CSS", "JavaScript", "Flutter", "Android"],
+    "notes": [
+      "Use this band to connect backend work to actual user-facing impact."
+    ]
+  }
+]

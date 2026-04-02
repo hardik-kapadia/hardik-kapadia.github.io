@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hardik Kapadia</title>
+  <meta name="description"
+    content="A motion-heavy personal portfolio for Hardik Kapadia, built as a pseudo one-page engineering atlas with JSON-configured content." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body data-theme="light">
+  <div class="page-noise" aria-hidden="true"></div>
+  <div class="page-glow page-glow--teal" aria-hidden="true"></div>
+  <div class="page-glow page-glow--ember" aria-hidden="true"></div>
+
+  <aside class="section-dock" aria-label="Section progress">
+    <a class="section-dock__item is-current" href="#top" data-section-dock-item="hero">
+      <span class="section-dock__marker" aria-hidden="true"></span>
+      <span class="section-dock__label">Intro</span>
+    </a>
+    <a class="section-dock__item" href="#about" data-section-dock-item="about">
+      <span class="section-dock__marker" aria-hidden="true"></span>
+      <span class="section-dock__label">About</span>
+    </a>
+    <a class="section-dock__item" href="#skills" data-section-dock-item="skills">
+      <span class="section-dock__marker" aria-hidden="true"></span>
+      <span class="section-dock__label">Skills</span>
+    </a>
+    <a class="section-dock__item" href="#experience" data-section-dock-item="experience">
+      <span class="section-dock__marker" aria-hidden="true"></span>
+      <span class="section-dock__label">Experience</span>
+    </a>
+    <a class="section-dock__item" href="#projects" data-section-dock-item="projects">
+      <span class="section-dock__marker" aria-hidden="true"></span>
+      <span class="section-dock__label">Projects</span>
+    </a>
+    <a class="section-dock__item" href="#contact" data-section-dock-item="contact">
+      <span class="section-dock__marker" aria-hidden="true"></span>
+      <span class="section-dock__label">Contact</span>
+    </a>
+  </aside>
+
+  <header class="site-header">
+    <a class="site-mark" href="#top">HK</a>
+    <div class="site-header__controls">
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false"
+        aria-label="Switch to dark mode">
+        <span class="sr-only">Toggle theme</span>
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20.2 14.4A8.5 8.5 0 0 1 9.6 3.8a1 1 0 0 0-1.2-1.2A10 10 0 1 0 21.4 15.6a1 1 0 0 0-1.2-1.2Z"
+            fill="currentColor" />
+        </svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="4.25" fill="currentColor" />
+          <path
+            d="M12 1.75v3M12 19.25v3M1.75 12h3M19.25 12h3M4.75 4.75l2.1 2.1M17.15 17.15l2.1 2.1M4.75 19.25l2.1-2.1M17.15 6.85l2.1-2.1"
+            fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.7" />
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="top" class="site-main">
+    <section class="hero atlas-section atlas-section--hero" data-section="hero">
+      <div class="section-rail" aria-hidden="true">
+        <span class="section-rail__index">00</span>
+        <span class="section-rail__line"></span>
+      </div>
+      <div class="hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow" data-site-eyebrow></p>
+          <h1 class="hero__title" data-site-title></h1>
+          <p class="hero__lede" data-site-lede></p>
+          <div class="hero__links" data-hero-links></div>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero-map__plate">
+            <span class="hero-map__halo hero-map__halo--primary"></span>
+            <span class="hero-map__halo hero-map__halo--secondary"></span>
+            <span class="hero-map__sweep"></span>
+            <svg class="hero-map" viewBox="0 0 620 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g class="hero-map__grid" opacity="0.2">
+                <path d="M0 80H620" />
+                <path d="M0 160H620" />
+                <path d="M0 240H620" />
+                <path d="M0 320H620" />
+                <path d="M0 400H620" />
+                <path d="M100 0V520" />
+                <path d="M220 0V520" />
+                <path d="M340 0V520" />
+                <path d="M460 0V520" />
+              </g>
+              <g class="hero-map__routes">
+                <path data-route-path d="M74 120C146 126 198 156 248 214" />
+                <path data-route-path d="M248 214C304 248 356 250 420 206" />
+                <path data-route-path d="M248 214C292 294 328 334 378 366" />
+                <path data-route-path d="M420 206C474 178 516 186 562 230" />
+                <path data-route-path d="M378 366C424 394 478 388 546 334" />
+              </g>
+              <g class="hero-map__nodes">
+                <circle data-route-node cx="74" cy="120" r="10" />
+                <circle data-route-node cx="248" cy="214" r="13" />
+                <circle data-route-node cx="420" cy="206" r="11" />
+                <circle data-route-node cx="562" cy="230" r="9" />
+                <circle data-route-node cx="378" cy="366" r="12" />
+                <circle data-route-node cx="546" cy="334" r="10" />
+              </g>
+              <g class="hero-map__labels">
+                <text x="48" y="96">PROFILE</text>
+                <text x="212" y="186">SYSTEMS</text>
+                <text x="384" y="186">WORK</text>
+                <text x="516" y="214">PROJECTS</text>
+                <text x="334" y="408">CONTACT</text>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="atlas-section atlas-section--priority" data-section="about">
+      <div class="section-rail" aria-hidden="true">
+        <span class="section-rail__index">01</span>
+        <span class="section-rail__line"></span>
+      </div>
+      <div class="section-shell section-shell--profile">
+        <header class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Who I am and<br>What I do.</h2>
+        </header>
+        <div data-about></div>
+      </div>
+    </section>
+
+    <section id="skills" class="atlas-section" data-section="skills">
+      <div class="section-rail" aria-hidden="true">
+        <span class="section-rail__index">02</span>
+        <span class="section-rail__line"></span>
+      </div>
+      <div class="section-shell section-shell--matrix">
+        <header class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>What I know.</h2>
+        </header>
+        <div class="skills-grid" data-skills-grid></div>
+      </div>
+    </section>
+
+    <section id="experience" class="atlas-section" data-section="experience">
+      <div class="section-rail" aria-hidden="true">
+        <span class="section-rail__index">03</span>
+        <span class="section-rail__line"></span>
+      </div>
+      <div class="section-shell section-shell--timeline">
+        <header class="section-heading">
+          <p class="eyebrow">Professional experience</p>
+          <h2>Where I've been and<br> What I've done.</h2>
+        </header>
+        <div class="experience-timeline" data-experience-timeline></div>
+      </div>
+    </section>
+
+    <section id="projects" class="atlas-section atlas-section--signature" data-section="projects">
+      <div class="section-rail" aria-hidden="true">
+        <span class="section-rail__index">04</span>
+        <span class="section-rail__line"></span>
+      </div>
+      <div class="section-shell section-shell--dossiers">
+        <header class="section-heading">
+          <p class="eyebrow">Personal projects</p>
+          <h2>What I've built.</h2>
+        </header>
+        <div class="project-filter-bar" data-project-filters></div>
+        <div class="project-groups" data-project-groups></div>
+      </div>
+    </section>
+
+    <section id="contact" class="atlas-section atlas-section--contact" data-section="contact">
+      <div class="section-rail" aria-hidden="true">
+        <span class="section-rail__index">05</span>
+        <span class="section-rail__line"></span>
+      </div>
+      <div class="section-shell section-shell--channels">
+        <header class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Where I am.</h2>
+        </header>
+        <div class="links-grid" data-links-grid></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Mission briefing, not brochure.</p>
+  </footer>
+
+  <script type="module" src="./scripts/main.ts"></script>
+</body>
+
+</html>

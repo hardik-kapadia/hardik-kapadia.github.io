@@ -1,0 +1,42 @@
+[
+  {
+    "id": "backend-systems",
+    "index": "01",
+    "title": "Backend Systems",
+    "summary": "Service-oriented thinking across JVM and Python-heavy work.",
+    "tools": ["Java", "Spring Boot", "Python", "Django"],
+    "notes": [
+      "This is where I spend most of my time: designing services, shaping APIs, and keeping systems understandable as they grow."
+    ]
+  },
+  {
+    "id": "apis-data",
+    "index": "02",
+    "title": "APIs & Data",
+    "summary": "The layer where backend logic becomes queryable, useful, and measurable.",
+    "tools": ["REST APIs", "PostgreSQL", "MySQL", "Data modeling"],
+    "notes": [
+      "These shows up in schema design, service contracts, and the data boundaries that make systems easier to evolve."
+    ]
+  },
+  {
+    "id": "reliability-tooling",
+    "index": "03",
+    "title": "Reliability & Tooling",
+    "summary": "Delivery, debugging, and workflows that make software less fragile.",
+    "tools": ["AWS", "CDK", "CloudWatch", "CI/CD"],
+    "notes": [
+      "I use this layer to ship changes safely, debug production issues quickly, and keep delivery from becoming a source of pain."
+    ]
+  },
+  {
+    "id": "product-interface",
+    "index": "04",
+    "title": "Product & Interface Awareness",
+    "summary": "Enough frontend and mobile depth to make systems visible and useful.",
+    "tools": ["TypeScript", "JavaScript", "HTML", "Flutter"],
+    "notes": [
+      "I am not frontend-first, but I care about making technical work visible, usable, and connected to real user outcomes."
+    ]
+  }
+]

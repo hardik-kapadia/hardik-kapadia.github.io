@@ -1,0 +1,57 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="paper" x1="140" y1="60" x2="1440" y2="940" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F1E8"/>
+      <stop offset="1" stop-color="#E9E0CF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#E8DECA"/>
+  <rect x="36" y="32" width="1528" height="936" rx="32" fill="url(#paper)" stroke="#1F1E1B" stroke-opacity="0.08"/>
+
+  <path d="M244 92V906" stroke="#B8AC93" stroke-width="2" stroke-dasharray="6 10"/>
+  <path d="M1282 92V906" stroke="#B8AC93" stroke-width="2" stroke-dasharray="6 10"/>
+
+  <text x="92" y="116" font-family="Courier New, monospace" font-size="16" letter-spacing="2" fill="#0E4D47">ENGINEERING FIELD JOURNAL</text>
+  <text x="1354" y="116" font-family="Courier New, monospace" font-size="16" letter-spacing="2" fill="#7C5A4D">VOL. 01</text>
+
+  <text x="88" y="214" font-family="Arial, sans-serif" font-size="84" font-weight="700" fill="#1F1E1B">A portfolio that reads</text>
+  <text x="88" y="298" font-family="Arial, sans-serif" font-size="84" font-weight="700" fill="#1F1E1B">like an ops notebook.</text>
+  <text x="88" y="352" font-family="Arial, sans-serif" font-size="28" fill="#5A564F">Plain-English summaries up front. Deeper system notes when you want them.</text>
+
+  <rect x="88" y="404" width="322" height="58" rx="29" fill="#1F1E1B"/>
+  <text x="150" y="442" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#F6F1E6">Open project journal</text>
+  <rect x="428" y="404" width="278" height="58" rx="29" fill="#F6F1E6" stroke="#1F1E1B" stroke-opacity="0.12"/>
+  <text x="498" y="442" font-family="Arial, sans-serif" font-size="22" fill="#1F1E1B">Scan current role</text>
+
+  <rect x="88" y="520" width="772" height="340" rx="20" fill="#F9F5EB" stroke="#1F1E1B" stroke-opacity="0.12"/>
+  <text x="122" y="564" font-family="Courier New, monospace" font-size="18" letter-spacing="2" fill="#0E4D47">CASE STUDY EXCERPT</text>
+  <text x="122" y="632" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#1F1E1B">Making reliability visible in backend work</text>
+  <text x="122" y="678" font-family="Arial, sans-serif" font-size="24" fill="#5A564F">Problem:</text>
+  <text x="244" y="678" font-family="Arial, sans-serif" font-size="24" fill="#1F1E1B">critical workflows needed to stay understandable under growth.</text>
+  <text x="122" y="716" font-family="Arial, sans-serif" font-size="24" fill="#5A564F">Tradeoff:</text>
+  <text x="244" y="716" font-family="Arial, sans-serif" font-size="24" fill="#1F1E1B">shipping faster vs reducing future operational drag.</text>
+  <text x="122" y="754" font-family="Arial, sans-serif" font-size="24" fill="#5A564F">Result:</text>
+  <text x="244" y="754" font-family="Arial, sans-serif" font-size="24" fill="#1F1E1B">the portfolio shows decisions, constraints, and system reasoning.</text>
+  <rect x="122" y="790" width="182" height="40" rx="20" fill="#ECE1CC"/>
+  <rect x="316" y="790" width="154" height="40" rx="20" fill="#ECE1CC"/>
+  <rect x="482" y="790" width="172" height="40" rx="20" fill="#ECE1CC"/>
+  <text x="148" y="816" font-family="Courier New, monospace" font-size="16" fill="#1F1E1B">POSTMORTEMS</text>
+  <text x="352" y="816" font-family="Courier New, monospace" font-size="16" fill="#1F1E1B">TIMELINES</text>
+  <text x="517" y="816" font-family="Courier New, monospace" font-size="16" fill="#1F1E1B">DIAGRAM NOTES</text>
+
+  <rect x="904" y="202" width="610" height="218" rx="20" fill="#F9F5EB" stroke="#1F1E1B" stroke-opacity="0.12"/>
+  <text x="936" y="246" font-family="Courier New, monospace" font-size="18" letter-spacing="2" fill="#7C5A4D">MARGIN NOTES</text>
+  <text x="936" y="304" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1F1E1B">Wacky in structure, not in tone</text>
+  <text x="936" y="348" font-family="Arial, sans-serif" font-size="22" fill="#5A564F">Notebook dividers, archival labels, annotations, and redacted blocks.</text>
+  <text x="936" y="382" font-family="Arial, sans-serif" font-size="22" fill="#5A564F">Enough personality to be memorable, but still something a recruiter can scan.</text>
+
+  <rect x="904" y="454" width="610" height="406" rx="20" fill="#1F1E1B"/>
+  <text x="938" y="500" font-family="Courier New, monospace" font-size="18" letter-spacing="2" fill="#D2C5AF">CURRENT ENTRY</text>
+  <text x="938" y="560" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#F7F1E8">Professional timeline</text>
+  <rect x="940" y="614" width="534" height="70" rx="18" fill="#2A2924"/>
+  <rect x="940" y="706" width="534" height="70" rx="18" fill="#2A2924"/>
+  <text x="970" y="655" font-family="Arial, sans-serif" font-size="24" fill="#F7F1E8">Current role with system scope and ownership</text>
+  <text x="970" y="747" font-family="Arial, sans-serif" font-size="24" fill="#F7F1E8">Earlier work compressed into credible milestones</text>
+  <text x="940" y="820" font-family="Arial, sans-serif" font-size="22" fill="#D2C5AF">Interaction style: drawers, annotations, sticky notes, progressive disclosure.</text>
+</svg>
