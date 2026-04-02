@@ -8,8 +8,7 @@ const getNavItems = () =>
 
 const syncNavState = (activeSection: string) => {
   getNavItems().forEach((item) => {
-    const href = item.getAttribute("href") ?? "";
-    const targetSection = href.replace("#", "");
+    const targetSection = item.dataset.navSection ?? (item.getAttribute("href") ?? "").replace("#", "");
     const isActive = targetSection === activeSection;
     item.classList.toggle("is-active", isActive);
     item.setAttribute("aria-current", isActive ? "location" : "false");

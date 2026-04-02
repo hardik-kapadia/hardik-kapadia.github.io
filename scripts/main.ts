@@ -1,6 +1,7 @@
 import "../styles/main.css";
 import { installGlobalErrorLogging, logError, logInfo } from "./debug/logger";
 import { loadPortfolioContent } from "./data/load-portfolio-content";
+import { setupMobileNavigation } from "./dom/mobile-nav";
 import { setupAtlasMotion } from "./motion/setup-atlas-motion";
 import { renderAbout } from "./render/render-about";
 import { renderExperience } from "./render/render-experience";
@@ -42,6 +43,9 @@ const recoverFromMotionFailure = (error: unknown) => {
 const initializePortfolio = async () => {
   installGlobalErrorLogging();
   logInfo("init:start");
+
+  setupMobileNavigation();
+  logInfo("init:mobile-navigation-ready");
 
   setupThemeToggle();
   logInfo("init:theme-toggle-ready", { theme: document.body.dataset.theme ?? "unset" });

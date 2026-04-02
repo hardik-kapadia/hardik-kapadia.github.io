@@ -74,6 +74,66 @@
     </div>
   </header>
 
+  <button class="mobile-nav-toggle" type="button" data-mobile-nav-toggle aria-controls="mobile-nav-overlay"
+    aria-expanded="false" aria-label="Open section index">
+    <span class="mobile-nav-toggle__icon" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+  </button>
+
+  <button class="theme-toggle theme-toggle--mobile-fab" type="button" data-theme-toggle aria-pressed="false"
+    aria-label="Switch to dark mode">
+    <span class="sr-only">Toggle theme</span>
+    <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M20.2 14.4A8.5 8.5 0 0 1 9.6 3.8a1 1 0 0 0-1.2-1.2A10 10 0 1 0 21.4 15.6a1 1 0 0 0-1.2-1.2Z"
+        fill="currentColor" />
+    </svg>
+    <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="12" cy="12" r="4.25" fill="currentColor" />
+      <path
+        d="M12 1.75v3M12 19.25v3M1.75 12h3M19.25 12h3M4.75 4.75l2.1 2.1M17.15 17.15l2.1 2.1M4.75 19.25l2.1-2.1M17.15 6.85l2.1-2.1"
+        fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.7" />
+    </svg>
+  </button>
+
+  <div class="mobile-nav-overlay" id="mobile-nav-overlay" data-mobile-nav-overlay hidden>
+    <div class="mobile-nav-panel" role="dialog" aria-modal="true" aria-labelledby="mobile-nav-title">
+      <div class="mobile-nav-panel__header">
+        <p class="eyebrow">Field index</p>
+        <h2 id="mobile-nav-title">Jump anywhere.</h2>
+      </div>
+
+      <nav class="site-nav site-nav--mobile" aria-label="Section index">
+        <a href="#top" data-nav-section="hero" data-mobile-nav-link>
+          <span class="mobile-nav-link__index">00</span>
+          <span class="mobile-nav-link__label">Intro</span>
+        </a>
+        <a href="#about" data-mobile-nav-link>
+          <span class="mobile-nav-link__index">01</span>
+          <span class="mobile-nav-link__label">About</span>
+        </a>
+        <a href="#skills" data-mobile-nav-link>
+          <span class="mobile-nav-link__index">02</span>
+          <span class="mobile-nav-link__label">Skills</span>
+        </a>
+        <a href="#experience" data-mobile-nav-link>
+          <span class="mobile-nav-link__index">03</span>
+          <span class="mobile-nav-link__label">Experience</span>
+        </a>
+        <a href="#projects" data-mobile-nav-link>
+          <span class="mobile-nav-link__index">04</span>
+          <span class="mobile-nav-link__label">Projects</span>
+        </a>
+        <a href="#contact" data-mobile-nav-link>
+          <span class="mobile-nav-link__index">05</span>
+          <span class="mobile-nav-link__label">Contact</span>
+        </a>
+      </nav>
+    </div>
+  </div>
+
   <main id="top" class="site-main">
     <section class="hero atlas-section atlas-section--hero" data-section="hero">
       <div class="section-rail" aria-hidden="true">
@@ -205,7 +265,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>Mission briefing, not brochure.</p>
+    <p>Bringing magic to life</p>
   </footer>
 
   <script type="module" src="./scripts/main.ts"></script>
